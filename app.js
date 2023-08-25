@@ -9,7 +9,7 @@ const rl = readLine.createInterface({
 function getUserInput(prompt){
     return new Promise((resolve) =>{
         rl.question(prompt, (answer) => {
-            resolve(answer);
+            resolve(answer)
         });
     });
 }
